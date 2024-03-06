@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyAnimeList" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimaryVariant">@color/gray_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/orange_light</item>
+        <item name="colorSecondaryVariant">@color/orange_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimaryVariant">@color/gray_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/orange_light</item>
+        <item name="colorSecondaryVariant">@color/orange_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="Title.medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SubTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="content">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Theme.MyAnimeList" parent="Base.Theme.MyAnimeList" />
+</resources>
